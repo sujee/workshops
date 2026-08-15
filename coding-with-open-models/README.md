@@ -2,49 +2,32 @@
 
 - [Coding with Open Models](#coding-with-open-models)
   - [Prerequisites](#prerequisites)
-  - [Getting Started](#getting-started)
-    - [1 -  Install one of the following coding agents](#1----install-one-of-the-following-coding-agents)
-    - [2 - Using Open Models on Nebius Token Factory](#2---using-open-models-on-nebius-token-factory)
-      - [2A - Sign up](#2a---sign-up)
-      - [2B - Get an API Key](#2b---get-an-api-key)
-      - [2C - Add credit to your account](#2c---add-credit-to-your-account)
-      - [2D - Follow coding agent setup](#2d---follow-coding-agent-setup)
-    - [Using Ollama for Local Models](#using-ollama-for-local-models)
+  - [Install a coding agent](#install-a-coding-agent)
+  - [Using Open Models on Nebius Token Factory](#using-open-models-on-nebius-token-factory)
+  - [Using Ollama for Local Models](#using-ollama-for-local-models)
 
 
 ## Prerequisites
 
-- A coding Agent
-- API Key for a model provider
+- A coding agent (see [Install a coding agent](#install-a-coding-agent))
+- API key for a model provider if using a cloud service
+- Local LLM setup if running locally
 
-## Getting Started
 
-### 1 -  Install one of the following coding agents
+## Install a coding agent
 
-- Claude code
+- Claude Code
 - Codex
 - Cursor
 - OpenCode
 - Cline
 
 
-### 2 - Using Open Models on Nebius Token Factory
+## Using Open Models on Nebius Token Factory
 
-#### 2A - Sign up
-
-https://tokenfactory.nebius.com/
-
-#### 2B - Get an API Key
-
-#### 2C - Add credit to your account
-
-Credit code will be given out
-
-#### 2D - Follow coding agent setup
-
-[instructions to setup agents + Token Factory](https://github.com/nebius/token-factory-cookbook/tree/main/coding)
+See [token-factory.md](token-factory.md) for setup steps.
 
 
-### Using Ollama for Local Models
+## Using Ollama for Local Models
 
 TODO
